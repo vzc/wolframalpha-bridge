@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01968EF517AF7FDB005681E1 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 01968EF417AF7FDB005681E1 /* GDataXMLNode.m */; };
 		01AB96DE151BE24F005C719A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AB96DD151BE24F005C719A /* Cocoa.framework */; };
 		01AB96E8151BE24F005C719A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01AB96E6151BE24F005C719A /* InfoPlist.strings */; };
 		01AB96EA151BE24F005C719A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB96E9151BE24F005C719A /* main.m */; };
 		01AB96EE151BE24F005C719A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01AB96EC151BE24F005C719A /* Credits.rtf */; };
 		01AB96F1151BE24F005C719A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB96F0151BE24F005C719A /* AppDelegate.m */; };
 		01AB96F4151BE250005C719A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01AB96F2151BE250005C719A /* MainMenu.xib */; };
-		01AB96FE151BE28A005C719A /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB96FB151BE28A005C719A /* GDataXMLNode.m */; };
 		01AB96FF151BE28A005C719A /* WolframAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AB96FD151BE28A005C719A /* WolframAlpha.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01968EF317AF7FDB005681E1 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		01968EF417AF7FDB005681E1 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 		01AB96D9151BE24F005C719A /* WolframAlphaInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WolframAlphaInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AB96DD151BE24F005C719A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		01AB96E0151BE24F005C719A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -31,8 +33,6 @@
 		01AB96EF151BE24F005C719A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01AB96F0151BE24F005C719A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		01AB96F3151BE250005C719A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		01AB96FA151BE28A005C719A /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
-		01AB96FB151BE28A005C719A /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 		01AB96FC151BE28A005C719A /* WolframAlpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WolframAlpha.h; sourceTree = "<group>"; };
 		01AB96FD151BE28A005C719A /* WolframAlpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WolframAlpha.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,10 +88,10 @@
 		01AB96E3151BE24F005C719A /* WolframAlphaInterface */ = {
 			isa = PBXGroup;
 			children = (
+				01968EF317AF7FDB005681E1 /* GDataXMLNode.h */,
+				01968EF417AF7FDB005681E1 /* GDataXMLNode.m */,
 				01AB96EF151BE24F005C719A /* AppDelegate.h */,
 				01AB96F0151BE24F005C719A /* AppDelegate.m */,
-				01AB96FA151BE28A005C719A /* GDataXMLNode.h */,
-				01AB96FB151BE28A005C719A /* GDataXMLNode.m */,
 				01AB96FC151BE28A005C719A /* WolframAlpha.h */,
 				01AB96FD151BE28A005C719A /* WolframAlpha.m */,
 				01AB96F2151BE250005C719A /* MainMenu.xib */,
@@ -177,8 +177,8 @@
 			files = (
 				01AB96EA151BE24F005C719A /* main.m in Sources */,
 				01AB96F1151BE24F005C719A /* AppDelegate.m in Sources */,
-				01AB96FE151BE28A005C719A /* GDataXMLNode.m in Sources */,
 				01AB96FF151BE28A005C719A /* WolframAlpha.m in Sources */,
+				01968EF517AF7FDB005681E1 /* GDataXMLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
